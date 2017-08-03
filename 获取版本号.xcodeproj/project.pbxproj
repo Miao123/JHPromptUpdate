@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					A1A1F2BC1CF5554F0037DFCF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B7UQ7WHB5T;
 					};
 					A1A1F2D51CF555500037DFCF = {
 						CreatedOnToolsVersion = 7.3;
@@ -415,10 +416,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "获取版本号/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gayou.com.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +432,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "获取版本号/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gayou.com.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +509,7 @@
 				A1A1F2EC1CF555500037DFCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1A1F2ED1CF555500037DFCF /* Build configuration list for PBXNativeTarget "获取版本号Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +518,7 @@
 				A1A1F2EF1CF555500037DFCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1A1F2F01CF555500037DFCF /* Build configuration list for PBXNativeTarget "获取版本号UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				A1A1F2F21CF555500037DFCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
